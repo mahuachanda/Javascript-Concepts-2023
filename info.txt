@@ -13,9 +13,17 @@ git config --global user.name "Mahua Chanda P" to change the username
 git config --global user.email "mahuachanda@gmail.com" to change the email
 
 Use the following command to view the current remote URL:
-git remove -v 
+git remote -v 
+
+After git commit, push the files in the origin
+Finally, use the git push command to push the commit to the remote repository. For example:
+
+git push origin main
 
 To change the remote URL to your personal Git repository URL, use the following command:
 git remote set-url origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+
+
+
 
 :x -> to come out of the bash terminal
