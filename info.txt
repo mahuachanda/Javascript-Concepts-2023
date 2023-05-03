@@ -1,0 +1,10 @@
+git commands -
+
+git init - to initialise the local repository with git.
+git add - to track the newly created files, and make it to stage area before commit.
+git add . - to add multiple files in the repo.
+
+git status - to know the current status of the working directory.
+git commit - to send the files from staged area to the main branch
+
+git commit -m "-add comment here - "  -> to add the commit message with the comit command
