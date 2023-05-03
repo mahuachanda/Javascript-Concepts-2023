@@ -8,3 +8,14 @@ git status - to know the current status of the working directory.
 git commit - to send the files from staged area to the main branch
 
 git commit -m "-add comment here - "  -> to add the commit message with the comit command
+
+git config --global user.name "Mahua Chanda P" to change the username
+git config --global user.email "mahuachanda@gmail.com" to change the email
+
+Use the following command to view the current remote URL:
+git remove -v 
+
+To change the remote URL to your personal Git repository URL, use the following command:
+git remote set-url origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+
+:x -> to come out of the bash terminal
