@@ -1,5 +1,7 @@
 git commands -
 
+:x -> to come out of the bash terminal
+
 git init - to initialise the local repository with git.
 git add - to track the newly created files, and make it to stage area before commit.
 git add . - to add multiple files in the repo.
@@ -21,9 +23,8 @@ Finally, use the git push command to push the commit to the remote repository. F
 git push origin main
 
 To change the remote URL to your personal Git repository URL, use the following command:
-git remote set-url origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git remote set-url origin https://github.com/mahuachanda/Javascript-Concepts-2023.git
 
 
-
-
-:x -> to come out of the bash terminal
+git pull --rebase origin main
+git push origin main
